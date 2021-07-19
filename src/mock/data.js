@@ -17,7 +17,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'headshot.JPG',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
@@ -28,12 +28,12 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'weather.png',
+    title: "Terrell's Weather App",
+    info: 'A simple weather app using the Open Weather API and Unsplash.com',
+    info2: 'JavaScript, HTMl, CSS, API, Github',
+    url: 'https://terlam.github.io/weather_app/',
+    repo: 'https://github.com/Terlam/weather_app', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
